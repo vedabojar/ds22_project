@@ -4,7 +4,7 @@ from PIL import Image
 def main():
     st.title("Conclusion")
  
-    image_0 = Image.open('../images/conclusion_pred.png')
+    image_0 = Image.open('./images/conclusion_pred.png')
     st.image(image_0)
 
     st.subheader("Purpose")
